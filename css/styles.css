@@ -76,8 +76,7 @@ img{
 .section-title{
     display: flex;
     margin-bottom: 50px;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
 
     
     color:var(--primary-text-color);
@@ -267,9 +266,6 @@ line-height: 1.2;
     padding-bottom: 94px;
 }
 
-.team-title{
-    justify-content: center;
-}
 
 .team-list{
     display: flex;
@@ -310,6 +306,48 @@ line-height: 1.2;
     font-size: 16px;
     line-height: 1.19;
 }    
+
+.team-social-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: px;
+}
+
+.team-social-item{
+
+}
+
+.team-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------Our clients--------- */
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.clients-list-item{
+    flex-basis: calc((100%-150px) / 6);
+
+    width: 170px;
+    height: 92px;
+}
+
+.clients-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 /* -------------Footer------------ */
 .footer{      
