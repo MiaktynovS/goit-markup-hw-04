@@ -164,8 +164,8 @@ line-height: 1.2;
 }
 
 .contacts-icon-tel{
-    width: 16px;
-    height: 12px;
+    width: 10px;
+    height: 16px;
     margin-right: 10px;
     fill: var(--second-text-color);
 }
@@ -189,6 +189,10 @@ line-height: 1.2;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contacts .contacts-link:hover,
@@ -417,10 +421,7 @@ line-height: 1.2;
     flex-basis: calc((100%-150px) / 6);
 
     width: 170px;
-    height: 92px;
-
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
+    height: 92px;   
 }
 
 .clients-list-link{
@@ -429,14 +430,21 @@ line-height: 1.2;
     align-items: center;
     width: 170px;
     height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 
-
+.clients-list-link:hover,
+.clients-list-link:focus{
+    border: 1px solid var(--accent-color);
+}
 
 .clients-list-link:hover .clients-list-icon,
 .clients-list-link:focus .clients-list-icon{
-    fill: var(--accent-color);
+    fill: var(--accent-color);    
 }
+
 
 .clients-list-icon{
     fill: #AFB1B8;
